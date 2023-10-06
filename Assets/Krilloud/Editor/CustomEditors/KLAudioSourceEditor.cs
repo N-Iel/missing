@@ -320,8 +320,8 @@ namespace KrillAudio.Krilloud.Editor
 
 			// Draw handles
 			EditorGUI.BeginChangeCheck();
-			Vector3 targetStart = Handles.FreeMoveHandle(startPos, Quaternion.identity, sizeStart, Vector3.zero, Handles.DotHandleCap);
-			Vector3 targetEnd = Handles.FreeMoveHandle(endPos, Quaternion.identity, sizeEnd, Vector3.zero, Handles.DotHandleCap);
+			var fmh_323_59_638321898294446070 = Quaternion.identity; Vector3 targetStart = Handles.FreeMoveHandle(startPos, sizeStart, Vector3.zero, Handles.DotHandleCap);
+			var fmh_324_55_638321898294483067 = Quaternion.identity; Vector3 targetEnd = Handles.FreeMoveHandle(endPos, sizeEnd, Vector3.zero, Handles.DotHandleCap);
 			if (EditorGUI.EndChangeCheck())
 			{
 				Undo.RecordObject(m_target, "Line points change");
