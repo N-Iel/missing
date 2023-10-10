@@ -20,7 +20,89 @@ MonoBehaviour:
     tags: []
     variables: []
   cacheContract:
-    tags: []
-    variables: []
+    tags:
+    - name: music
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 1
+      channelId: 0
+      sourceContract: 2
+    - name: environment
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 1
+      sourceContract: 2
+    - name: player
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 3
+      sourceContract: 2
+    - name: dialogue
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 2
+      sourceContract: 2
+    - name: button
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 2
+      sourceContract: 2
+    - name: reports
+      description: 
+      is3D: 0
+      max3DDistance: 2
+      isLoop: 0
+      channelId: 2
+      sourceContract: 2
+    variables:
+    - name: theme
+      defaultValue: 0
+      isGlobal: 0
+      source: 2
+      content: 1
+      min: 0
+      max: 1
+      sourceContract: 2
+    - name: steps
+      defaultValue: 0
+      isGlobal: 0
+      source: 2
+      content: 1
+      min: 0
+      max: 1
+      sourceContract: 2
+    - name: notifications
+      defaultValue: 0
+      isGlobal: 0
+      source: 2
+      content: 1
+      min: 0
+      max: 1
+      sourceContract: 2
+    - name: buttonstatus
+      defaultValue: 0
+      isGlobal: 0
+      source: 2
+      content: 1
+      min: 0
+      max: 1
+      sourceContract: 2
+    - name: boxstatus
+      defaultValue: 0
+      isGlobal: 0
+      source: 2
+      content: 1
+      min: 0
+      max: 1
+      sourceContract: 2
     soundbank_files: []
     channels: []
